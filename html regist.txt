@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="001.css">
+		<title> Registration Form </title>
+
+	</head>
+
+	<body bgcolor="lightblue">
+
+		<form>
+			Firstname: <input type="text">
+
+			<br>
+			<br>
+
+			Lastname: <input type="text">
+
+			<br>
+			<br>
+
+			Course : <select name="Course">
+				
+				<option value="Course"> Course </option>
+				<option value="BSCpE-3B"> BSCpE-3B </option>
+				<option value="BSCpE-3A"> BSCpE-3A </option>
+
+			</select>
+
+			<br>
+			<br>
+
+			Gender : 
+
+			<br>
+
+			<input type="radio" name="Gender" value="Male"> Male 
+
+			<br>
+
+			<input type="radio" name="Gender" value="Female"> Female 
+
+			<br>
+
+			<input type="radio" name="Gender" value="Other"> Other
+
+			<br>
+			<br>
+
+			Hobbies :
+
+			<br>
+
+			<input type="checkbox" name="Programming"> Programming
+
+			<br>
+
+			<input type="checkbox" name="Cricket"> Cricket
+
+			<br>
+
+			<input type="checkbox" name="Football"> FootBall
+
+			<br>
+
+			<input type="checkbox" name="Reading Novel"> Reading Novel
+
+			<br>
+			<br>
+			<br>
+
+			Phone : 
+
+			<input type="number">
+
+			<br>
+			<br>
+
+			Address:
+
+			<br>
+
+			<textarea id="value" rows="8" cols="100"> </textarea>
+
+			<br>
+			<br>
+			<br>
+
+			Email: <input type="email">
+
+			<br>
+			<br>
+
+			Password: <input type="password">
+
+			<br>
+			<br>
+			<br>
+
+			<input type="submit">
+
+			<input type="reset" name="">
+
+		</form>
+
+		
+	</body>
+
+</html>
